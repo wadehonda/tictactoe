@@ -110,9 +110,7 @@ export default function Game() {
 
   const moves = record.map((step, move) => {
     const ls = step.lastSquare;
-    const desc = move
-      ? "Go to move #" + move + " in square " + ls
-      : "Go to game start";
+    const desc = move ? "#" + move + " in square " + ls : "Go to game start";
     return (
       <li key={move}>
         <button
