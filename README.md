@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe Tutorial Follow Up
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The offical React website provides a **learning by doing** tutorial on how to build an interactive tic-tac-toe game with React ([https://reactjs.org/tutorial/tutorial.html](https://reactjs.org/tutorial/tutorial.html)). The example provided in the tutorial uses React class components for state management. At the end of the tutorial, 6 follow-up tasks are suggested for readers to practice and develop their React skills.
 
-## Available Scripts
+This React App provides an example on how to use React function components to develop the tic-tac-toe game and use the `useState` and `useRef` hooks for state management. This example also shows how to fulfil the 6 follow-up tasks similar to the ones suggested in the React tutorial:
 
-In the project directory, you can run:
+1. Display the location (using the square number) for each move in the move history.
+2. Highlight the current selected item in the move list.
+3. Use loops to make the squares instead of hardcoding them.
+4. The move list is implemented for users to inspect and replay their completed games, by going to any numbered step, or by pressing Forward or Backward buttons. This provides a standard game replay, which differs from the [implementation provided in the React tutorial](https://codepen.io/gaearon/pen/gWWZgR?editors=0010), where users can go back to a previous step, and then to continue playing as a new game from that step.
+5. When someone wins, the three squares that caused the win are highlighted using color.
+6. When no one wins, a **Draw** message is provided.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In addition, the position of the last step during the game is highlighted; and a warning message is provided in case a move is atempted on an occupied position. Replay is only presented and enabled aften a game is completed. A _New Game_ button is provied for readers to play the game again. You are welcome to try [the improved game](https://wadehonda.github.io/tictactoe).
