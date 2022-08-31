@@ -11,4 +11,4 @@ This React App provides an example on how to use React function components to de
 5. When someone wins, the three squares that caused the win are highlighted using color.
 6. When no one wins, a **Draw** message is provided.
 
-In addition, the position of the last step during the game is highlighted; and a warning message is provided in case a move is atempted on an occupied position. Replay is only presented and enabled aften a game is completed. A _New Game_ button is provided for readers to play the game again. You are welcome to try [the improved game](https://wadehonda.github.io/tictactoe).
+In addition, the position of the last move during the game is highlighted; and a warning message is provided in case a move is atempted on an occupied position. Replay is only presented and enabled aften a game is completed. A _New Game_ button is provided for readers to play the game again. You are welcome to try [the improved game](https://wadehonda.github.io/tictactoe).

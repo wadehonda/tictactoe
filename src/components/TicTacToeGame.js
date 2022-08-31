@@ -20,7 +20,7 @@ function Board(props) {
   const rowLayout = (i) => {
     const row = gameLines[i];
     return (
-      <div className="board-row">
+      <div key={i} className="board-row">
         {row.map((x) => (
           <Square
             key={x}
