@@ -125,7 +125,7 @@ export default function Game() {
 
   return (
     <div className="game">
-      <p className="game-info game-title">TicTacToe PWA</p>
+      <p className="game-info game-title">TicTacToe</p>
       <Board
           lastSquare={lastSquare}
           winningSquares={winningSquares}
